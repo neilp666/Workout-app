@@ -10,3 +10,5 @@ Simple Workout app to track my fitness!
 
 * Database Sqlite
 
+* Simple Form 
+
