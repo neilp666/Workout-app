@@ -15,3 +15,32 @@
  */
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+html {
+	height: 100%;
+}
+
+body {
+	background: -webkit-linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* Chrome 10+, Saf5.1+ */
+  background:    -moz-linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* FF3.6+ */
+  background:     -ms-linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* IE10 */
+  background:      -o-linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* Opera 11.10+ */
+  background:         linear-gradient(90deg, #3D7EAA 10%, #FFE47A 90%); /* W3C */
+}
+
+#index_workouts {
+	h2 {
+		margin-bottom: 0;
+		font-weight: 100;
+		a {
+			color: white;
+		}
+	}
+	h3 {
+		margin: 0;
+		font-size: 18px;
+		span {
+			color: rgb(48, 181, 199);
+		}
+	}
+}
